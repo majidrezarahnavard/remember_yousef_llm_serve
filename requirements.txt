@@ -1,0 +1,17 @@
+pip
+langchain 
+langchain-community 
+langchainhub 
+langchain-core 
+chromadb 
+bs4
+wheel
+matplotlib
+Pyarrow
+pandas
+fastapi
+uvicorn[standard]
+unstructured
+networkx
+ollama
+llama-index-core
