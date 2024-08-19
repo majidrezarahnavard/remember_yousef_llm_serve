@@ -38,6 +38,6 @@ ollama run llama3.1
 
 با ظاهر شدن پیغام زیر اولا روی پورت ۸۰۸۰ اجرا میشود
 
-‍‍‍```
+```
 INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
 ```
