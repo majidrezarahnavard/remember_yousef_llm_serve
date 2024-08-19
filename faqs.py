@@ -31,11 +31,11 @@ class FAQs:
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=5000,
             chunk_overlap=200,
-            separators=[
-                "###",
-                "##",
-                "#",
-            ]
+            # separators=[
+            #     "###",
+            #     "##",
+            #     "#",
+            # ]
             )
         splits = text_splitter.split_documents(data1)
         data = splits
@@ -43,6 +43,7 @@ class FAQs:
         
         #Prompt Engineer
         template = """
+        You are a chat bot assistance to answer people question about internet connection.
         Answer questions based on the context.
         If you can't answer the question, reply "I don't know".
 
